@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.innerdiv {
+    width: 25vw;
+    height: 25rem;
+    margin-top: 3rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, .4);
+}
+#userInput{
+    padding: .3rem;
+    font-size: 1rem;
+    margin-left: -15px;
+}
+#qrImage{
+    width: 200px;
+    height: 200px;
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+
+@media only screen and (min-width: 300px) {
+  .innerdiv {
+      width: 90vw;
+}
+#userInput{
+  margin-left: 0px;
+  padding: 0px;
+}
+#qrImage{
+  margin-left: 0px;
+}
+}
+
+@media only screen and (min-width: 400px) {
+    .innerdiv {
+        width: 80vw;
+  }
+  #userInput{
+    margin-left: 0px;
+    padding: 0px;
+  }
+  #qrImage{
+    margin-left: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .innerdiv {
+        width: 60vw;
+  }
+  #qrImage {
+    margin-left: 18px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .innerdiv {
+        width: 50vw;
+  }
+  #userInput {
+    margin-left: 18px;
+  }
+  #qrImage {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .innerdiv {
+        width: 30vw;
+  }
+  #userInput {
+    margin-left: 18px;
+  }
+  #qrImage {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .innerdiv {
+        width: 30vw;
+  }
+  #userInput {
+    margin-left: 18px;
+  }
+  #qrImage {
+    margin-left: 31px;
+  }
+}
+
+
